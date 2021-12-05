@@ -1,1 +1,17 @@
-
+{
+ 
+"Title": "Too much ammo is added after reload",
+"Category": "UI/HUD",
+"Severity/Priority": "Major/High",
+"Steps to Reproduce": 
+[
+  "Equip any firearm (let’s assume it has 30 bullets in the clip)",
+  "Fire 5 bullets",
+  "Reload"
+],
+"Actual Result": "HUD displays 55 bullets loaded (amount before reload + clip size)",
+"Expected Result": "HUD should display 30 bullets loaded (amount before reload + 5 after the reload)",
+"Affected Version": "0.3.1",
+"Platform": "any",
+"Attachments": "screenshot with incorrect value marked on HUD"
+}
