@@ -1,4 +1,6 @@
-"name":"Julia"
-"age":35
-"pets":0
+{
+"name":"Julia",
+"age":35,
+"pets":0,
 "salary":"great"
+}
